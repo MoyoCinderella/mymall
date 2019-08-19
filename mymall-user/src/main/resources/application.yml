@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.179.128:3307/mymall
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.zhenlong.mymall.user.bean
+logging:
+  level:
+    root: debug
