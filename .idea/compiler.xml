@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="fastdfs-client-java" />
+        <module name="mymall-api" />
+        <module name="mymall-common-util" />
+        <module name="mymall-manage-service" />
+        <module name="mymall-manage-web" />
+        <module name="mymall-service-util" />
+        <module name="mymall-user" />
+        <module name="mymall-user-service" />
+        <module name="mymall-user-web" />
+        <module name="mymall-web-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="fastdfs-client-java" target="1.6" />
+      <module name="mymall-api" target="1.5" />
+      <module name="mymall-common-util" target="1.8" />
+      <module name="mymall-manage-service" target="1.8" />
+      <module name="mymall-manage-web" target="1.8" />
+      <module name="mymall-parent" target="1.8" />
+      <module name="mymall-service-util" target="1.8" />
+      <module name="mymall-user" target="1.8" />
+      <module name="mymall-user-service" target="1.8" />
+      <module name="mymall-user-web" target="1.8" />
+      <module name="mymall-web-util" target="1.8" />
+      <module name="mymallapi" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="mymall-common-util" options="" />
+      <module name="mymall-manage-service" options="" />
+      <module name="mymall-manage-web" options="" />
+      <module name="mymall-service-util" options="" />
+      <module name="mymall-user" options="" />
+      <module name="mymall-user-service" options="" />
+      <module name="mymall-user-web" options="" />
+      <module name="mymall-web-util" options="" />
+      <module name="mymallapi" options="-parameters" />
+    </option>
+  </component>
+</project>

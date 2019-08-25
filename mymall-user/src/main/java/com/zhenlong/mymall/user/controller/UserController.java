@@ -1,8 +1,8 @@
 package com.zhenlong.mymall.user.controller;
 
-import com.zhenlong.mymall.user.bean.UmsMember;
-import com.zhenlong.mymall.user.bean.UmsMemberReceiveAddress;
-import com.zhenlong.mymall.user.service.UserService;
+import com.zhenlong.mymall.bean.UmsMember;
+import com.zhenlong.mymall.bean.UmsMemberReceiveAddress;
+import com.zhenlong.mymall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

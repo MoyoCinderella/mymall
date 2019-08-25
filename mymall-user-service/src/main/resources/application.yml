@@ -1,0 +1,24 @@
+#spring:
+#  datasource:
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://192.168.179.128:3307/mymall
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  dubbo:
+#    application: user-service
+#    registry:
+#      address: 192.168.179.128:2181
+#      protocol: zookeeper
+#    protocol:
+#      name: dubbo
+#    base-package: com.zhenlong.mymall
+#mybatis:
+#  mapper-locations: classpath:mapper/*Mapper.xml
+#  configuration:
+#    map-underscore-to-camel-case: true
+#  type-aliases-package: com.zhenlong.mymall.bean
+#logging:
+#  level:
+#    root: info
+#server:
+#  port: 8070
