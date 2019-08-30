@@ -26,7 +26,7 @@ public class CatalogController {
     @RequestMapping("/getCatalog1")
     @ResponseBody
     public List<PmsBaseCatalog1> getCatalog1(){
-        System.out.println("=========>"+catalogService);
+
      List<PmsBaseCatalog1> pmsBaseCatalog1List =   catalogService.getCatalog1();
         return pmsBaseCatalog1List;
     }

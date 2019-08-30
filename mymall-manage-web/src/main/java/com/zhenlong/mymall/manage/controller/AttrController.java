@@ -4,12 +4,10 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.zhenlong.mymall.bean.PmsBaseAttrInfo;
 import com.zhenlong.mymall.bean.PmsBaseAttrValue;
 import com.zhenlong.mymall.bean.PmsBaseSaleAttr;
-import com.zhenlong.mymall.bean.PmsProductSaleAttr;
-import com.zhenlong.mymall.manage.util.PmsUploadUtil;
 import com.zhenlong.mymall.service.AttrService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
+
 
 import java.util.List;
 

@@ -41,22 +41,21 @@ public class PmsProductInfo implements Serializable {
         this.productName = productName;
     }
 
-    public List<PmsProductSaleAttr> getPmsProductSaleAttrList() {
+    public List<PmsProductSaleAttr> getSpuSaleAttrList() {
         return spuSaleAttrList;
     }
 
-    public void setPmsProductSaleAttrList(List<PmsProductSaleAttr> pmsProductSaleAttrList) {
-        this.spuSaleAttrList = pmsProductSaleAttrList;
+    public void setSpuSaleAttrList(List<PmsProductSaleAttr> spuSaleAttrList) {
+        this.spuSaleAttrList = spuSaleAttrList;
     }
 
-    public List<PmsProductImage> getPmsProductImageList() {
+    public List<PmsProductImage> getSpuImageList() {
         return spuImageList;
     }
 
-    public void setPmsProductImageList(List<PmsProductImage> pmsProductImageList) {
-        this.spuImageList = pmsProductImageList;
+    public void setSpuImageList(List<PmsProductImage> spuImageList) {
+        this.spuImageList = spuImageList;
     }
-
 
     public String getId() {
         return id;

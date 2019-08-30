@@ -17,7 +17,7 @@ public class PmsUploadUtil {
 
 
     public static String upLoadImage(MultipartFile multipartFile) {
-        String imgUrl = "http://192.168.179.128/";
+        String imgUrl = "http://192.168.179.128";
         String tracker = PmsUploadUtil.class.getResource("/tracker.conf").getPath();
         String[] jpgs = new String[0];
         String filename = multipartFile.getOriginalFilename();
@@ -34,7 +34,7 @@ public class PmsUploadUtil {
             e.printStackTrace();
         }
         for (String jpg : jpgs) {
-            imgUrl += jpg;
+            imgUrl += "/"+jpg;
         }
 
         return imgUrl;

@@ -10,6 +10,7 @@
         <module name="fastdfs-client-java" />
         <module name="mymall-api" />
         <module name="mymall-common-util" />
+        <module name="mymall-item-web" />
         <module name="mymall-manage-service" />
         <module name="mymall-manage-web" />
         <module name="mymall-service-util" />
@@ -24,6 +25,7 @@
       <module name="fastdfs-client-java" target="1.6" />
       <module name="mymall-api" target="1.5" />
       <module name="mymall-common-util" target="1.8" />
+      <module name="mymall-item-web" target="1.8" />
       <module name="mymall-manage-service" target="1.8" />
       <module name="mymall-manage-web" target="1.8" />
       <module name="mymall-parent" target="1.8" />
@@ -39,6 +41,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="mymall-common-util" options="" />
+      <module name="mymall-item-web" options="" />
       <module name="mymall-manage-service" options="" />
       <module name="mymall-manage-web" options="" />
       <module name="mymall-service-util" options="" />
